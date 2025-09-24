@@ -1,0 +1,316 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #F8F6F1;
+  color: #9B0606;
+}
+
+/* Верхнее меню */
+header {
+  background: transparent;
+  padding: 20px 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #9B0606;
+  font-weight: bold;
+}
+
+/* Hero-секция */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 60px 20px;
+}
+
+/* Фото */
+.photo img {
+  width: 395px;
+  margin-right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(115, 18, 18, 10);
+}
+
+/* Имя */
+.name h1 {
+font-weight:500;
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1.0;
+  text-shadow: 2px 2px 6px rgba(115, 18, 18, 0.5);
+}
+
+.name h1 .accent {
+font-weight:100;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 90px;
+}
+
+.name h2 {
+font-weight:500;
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  margin: 0;
+  margin-right: 90px
+  line-height: 1.0;
+  text-shadow: 2px 2px 6px rgba(115, 18, 18, 0.5);
+}
+
+.name h2 .accent {
+font-weight:100;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 86px;
+  }
+
+/* ====== надпись обо мне ====== */
+.me {
+  display: flex;
+  justify-content: flex-start; /* прижимаем к левому краю */
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.me-block {
+  width: 300px; /* фиксируем ширину прямоугольника */
+  height: 150px; /* фиксируем высоту */
+  background: #800020;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;   /* по вертикали */
+  justify-content: center; /* по горизонтали */
+}
+
+.me-block h4 {
+  color: #F8F6F1; 
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* ====== Блок ОБО МНЕ ====== */
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.about-block {
+  flex: 1;
+  background: #F8F6F1;
+  box-shadow: 0 4px 12px rgba(115, 18, 18, 0.3);
+  border-radius: 20px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.about-block:hover {
+  transform: translateY(-5px);
+}
+
+.about-block h3 {
+  color: #800020; /* твой бордовый */
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-block p,
+.about-block li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #800020;
+}
+
+.about-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-block li {
+  margin: 8px 0;
+}
+
+.about-block a {
+  color: #800020;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-block a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Заголовок "Мои достижения" ====== */
+.ach {
+  display: flex;
+  justify-content: flex-start; /* прижимаем к левому краю */
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.ach-block {
+  width: 300px; /* фиксируем ширину прямоугольника */
+  height: 150px; /* фиксируем высоту */
+  background: #800020;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;   /* по вертикали */
+  justify-content: center; /* по горизонтали */
+}
+
+.ach-block h5 {
+  color: #F8F6F1; 
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* ====== Диплом + текст ====== */
+.ach1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.photo2 img {
+  width: 395px;
+  margin-right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(115, 18, 18, 10);
+}
+
+.ach1-text {
+  flex: 1;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  color: #800020;
+}
+
+/* ====== Олимп + текст ====== */
+.ach2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 30px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.photo3 img {
+  width: 395px;
+  margin-left: 0;
+  margin-right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(115, 18, 18, 10);
+}
+
+.ach2-text {
+  flex: 1;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  color: #800020;
+}
+
+/* ====== Заголовок "Мои хобби" ====== */
+/* Общий контейнер: заголовок слева + фото справа */
+.gallery-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+/* Красный прямоугольник с заголовком */
+
+.hob {
+  display: flex;
+  justify-content: flex-start; /* прижимаем к левому краю */
+  margin: 80px auto;
+  max-width: 1000px;
+}
+
+.hob-block {
+  width: 300px; /* фиксируем ширину прямоугольника */
+  height: 150px; /* фиксируем высоту */
+  background: #800020;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;   /* по вертикали */
+  justify-content: center; /* по горизонтали */
+}
+
+.hob-block h6 {
+  color: #F8F6F1; 
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.gallery-title {
+  width: 250px;
+  height: 120px;
+  background: #F8F6F1;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(115, 18, 18, 0.3));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-title h7 {
+  color: #9B0606;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(115, 18, 18, 0.5)
+}
+
+/* Карусель (горизонтальный скролл) */
+.gallery-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+/* Стили фото */
+.gallery-track img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(115, 18, 18, 0.4);
+  flex-shrink: 0; /* чтобы не сжимались */
+  transition: transform 0.3s ease;
+}
+
+.gallery-track img:hover {
+  transform: scale(1.05);
+}
+
