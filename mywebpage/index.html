@@ -1,126 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ксения Ступак</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключение шрифтов -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
 
-<!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html -->
+  <!-- ВЕРХНЕЕ МЕНЮ -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://ling.hse.ru/">Школа лингвистики НИУ ВШЭ</a></li>
+        <li><a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a></li>
+        <li><a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<html>
+  <!-- ГЛАВНЫЙ ЭКРАН -->
+  <section class="hero">
+    <div class="photo">
+      <img src="images/ava.jpg" alt="Ксения Ступак">
+    </div>
+    <div class="name">
+    <h1><span class="accent">К</span>сения</h1>
+    <h2>Ст<span class="accent">у</span>пак</h2>
+     </div>
+  </section>
+  
+  <section class="me">
+  <div class="me-block">
+  <h4>Обо мне</h4>
+  </div>
+  
+</section>
+  
+  <section class="about">
+  <div class="about-block">
+    <h3>Образование</h3>
+    <p>МАОУ «Земская гимназия»</p>
+  </div>
 
-<!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
+  <div class="about-block">
+    <h3>Место учёбы</h3>
+    <p>НИУ ВШЭ, Москва<br>Фундаментальная и компьютерная лингвистика</p>
+  </div>
 
-	<head>
-		<title>Личная страница Ксении Ступак</title>
-	 	<!-- Required meta tags -->
-	 	<meta charset="utf-8">
-	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="about-block">
+    <h3>Контакты</h3>
+    <ul>
+      <li><a href="https://vk.com/id757589499" target="_blank">VK</a></li>
+      <li><a href="https://web.telegram.org/k/#@RGHThrNn" target="_blank">Telegram</a></li>
+    </ul>
+  </div>
+</section>
 
-		<meta name="description" content="Личная страница и контакты">
+<!-- Красный заголовок -->
+<div class="ach">
+  <div class="ach-block">
+    <h5>Мои достижения</h5>
+  </div>
+</div>
 
-		<!-- Bootstrap Core CSS -->
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<!-- Эта страница сделана с помощью bootstrap - популярной библиотеки для создания и настройки сайтов. Ниже вы увидите, что многие теги содержат атрибуты class - bootstrap содержит шаблоны, как такие элементы красиво оформить -->
+<!-- Диплом и текст -->
+<div class="ach1">
+  <div class="photo2">
+    <img src="images/diploma.jpg" alt="Диплом">
+  </div>
+  <div class="ach1-text">
+    <p>Дипломант I степени конференции<br>"Молодой учёный” 2024-2025 с исследовательской работой<br>“Влияние изучения иностранных языков<br>на когнитивные способности человека"</p>
+  </div>
+</div>
 
-	</head>
-	
-<!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
-	<body>
+<!-- Олимп и текст -->
+<div class="ach2">
+  <div class="photo3">
+    <img src="images/vse.png" alt="ВсОШ">
+  </div>
+  <div class="ach2-text">
+    <p>Призёр заключительного этапа ВсОШ<br>по Русскому языку 2024-2025</p>
+  </div>
+</div>
 
-<!-- меню (navigation bar) -->
+<!-- заголовок хобби -->
+<div class="hob">
+    <div class="hob-block">
+    <h6>Мои увлечения</h6>
+  </div>
+  </div>
+    <!-- Первая группа: Фотографии -->
+<div class="gallery-row">
+  <div class="gallery-title">
+    <h7>Фотография</h7>
+  </div>
+  <div class="gallery-track">
+    <img src="images/church.png" alt="Фото 4">
+    <img src="images/duck.png" alt="Фото 5">
+    <img src="images/moon.png" alt="Фото 6">
+  </div>
+</div>
 
-		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-
-<!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
+<!-- Вторая группа: Рисунки -->
+<div class="gallery-row">
+  <div class="gallery-title">
+    <h7>Рисование</h7>
+  </div>
+  <div class="gallery-track">
+    <img src="images/asian.png" alt="Фото 7">
+    <img src="images/girl.png" alt="Фото 8">
+    <img src="images/model.png" alt="Фото 9">
+  </div>
+</div>
+    
+    <footer class="bs-docs-footer"> 
 			<div class="container"> 
-				<div class="navbar-header"> 
-					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a> 
-				</div> 
-				<nav class="collapse navbar-collapse" id="bs-navbar"> 
-					<ul class="nav navbar-nav navbar-right"> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
-<!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
-					</ul>
-				</nav> 
-			</div>
-		</nav>
-
-<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
-
-		<header style="background-color:plum; padding-top:70px; "> 
-			<div class="container"> 
-				<div class="row">
-					<div class="col-md-4">
-						<br><br>
-<!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Ксения Ступак</h1>
-						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
-					</div>
-					<div class="col-md-4">
-<!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
-<!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
-					</div>
-				</div>
-			</div>
-		</header>
-
-<!-- часть страницы, которая под шапкой -->
-		<section id="portfolio">
-			<div class="container">
-
-<!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
-				<div class="col-md-3">
-
-<!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
-					<article>
-						<h3>Место учебы</h3>
-						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
-					</article>
-					<article>
-						<h3>Родной город</h3>
-						<p>Москва</p>
-					</article>
-					<article>
-						<h3>Школа</h3>
-<!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>СУНЦ НГУ</p>
-					</article>
-				</div>
-
-				<div class="col-md-6">
-					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
-					</article>
-				</div>
-
-				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
-<!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
-					<ul>
-						<li>VK</li>
-						<li>Discord</li>
-						<li>Telegram</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-<!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
-		<footer class="bs-docs-footer"> 
-			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2024</p> 
+				<p style="text-align:right; ">&copy; К. Ступак, 2025</p> 
 			</div>
 		</footer>
-	</body>
 
+</body>
 </html>
+
 
 
